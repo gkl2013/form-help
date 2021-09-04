@@ -16,18 +16,17 @@
 常用规则配置示例
 银行卡号只会生成19位的卡号，符合LUHN算法。
 
-手机号@tel=>13125404501
+手机号 @tel
 
-银行卡号@bank=>6225315001616947532
+银行卡号  @bank
 
-座机号@landline=>637-16755165
+座机号 @landline
+电子邮箱  @email
 
-电子邮箱@email=>i.nhmhkj@mfsmxisg.ba
+身份证号码 @id
 
-身份证号码@id=>320000197706152126
+日期  @date("yyyy-MM-dd")
 
-日期@date("yyyy-MM-dd")=>2001-06-17
-
-正则表达式/\d{5,10}/=>39247225
+正则表达式 /\d{5,10}/
 
 更多用法请参考: [Mockjs](http://mockjs.com/examples.html)
