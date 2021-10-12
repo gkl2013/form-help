@@ -29,4 +29,20 @@
 
 正则表达式 /\d{5,10}/
 
-更多用法请参考: [Mockjs](http://mockjs.com/examples.html)
+更多用法请参考: [Mockjs](http://mockjs.com/examples.html) 
+
+## 三、chrome翻译配置
+
+某些网址使用chrome自带的翻译功能时会将代码块也进行翻译，不利于阅读，该功能可以指定我们不想翻译的内容。
+
+![image](https://user-images.githubusercontent.com/19631145/136877939-7e9ba5f0-0ff4-4f94-ba8d-f00c86b7065d.png)
+
+以github为例，通过元素审查获取代码块最顶级的标签或、class等。然后在插件配置页进行配置。
+![image](https://user-images.githubusercontent.com/19631145/136878108-19440a74-88e5-4335-9936-91fb4aa93ff2.png)
+
+ps: 网址匹配的 window.origin 暂不支持正则匹配。
+
+
+
+
+
